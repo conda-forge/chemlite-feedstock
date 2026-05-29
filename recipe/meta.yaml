@@ -1,5 +1,5 @@
 {% set name = "chemlite" %}
-{% set version = "2.7.0" %}
+{% set version = "2.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 8584261048df41a101587773e7145d7adf8ba15600287a9506e2d975ab908571
+  sha256: c4a6e52b2f5c04b6447c432512b1f35a2a14ad8670af076979d2e91401c2592f
 
 build:
   number: 0
@@ -44,3 +44,4 @@ about:
 extra:
   recipe-maintainers:
     - breakthewall
+    - ramez17khaled
