@@ -1,5 +1,5 @@
 {% set name = "chemlite" %}
-{% set version = "2.8.0" %}
+{% set version = "2.9.0" %}
 {% set python_min = "3.7" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: c4a6e52b2f5c04b6447c432512b1f35a2a14ad8670af076979d2e91401c2592f
+  sha256: 8070465b851e671c9acb1ffd664a5e5cbb6f168f17f12fb4a4ccf1a2f56fd134
 
 build:
   number: 0
